@@ -1,8 +1,5 @@
 'use strict';
 const http = require('http');
-const fs = require('fs');
-const marked = require('marked');
-const readFile = require('fs').readFile;
 const headers = {};
 http.createServer((req, res) => {
   headers['Access-Control-Allow-Origin'] = '*'
